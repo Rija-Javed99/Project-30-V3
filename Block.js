@@ -23,9 +23,11 @@ class Block{
       else{
         World.remove(world, this.body);
         push();
-        this.visiblity = this.visiblity - 5;
-        tint(255,this.visiblity);
-        image(this.image, this.body.position.x, this.body.position.y,this.width, this.height);
+       
+          
+          //make the blocks disappear using tint code
+          
+          
         pop();
       }
     }
